@@ -21,7 +21,7 @@ body{
 }
 
 .p_btn{
-    padding: 20px 25px;
+    padding: 1.25rem 1.5rem;
     background-color: #FF900E;
     color: white;
     border: none;
@@ -35,16 +35,24 @@ main{
     margin: 0 auto;
 }
 
-dark1{
+.dark1{
     color: #131313;
 }
 
-dark2{
+.dark2{
     color: #424242;
 }
 
-dark3{
+.dark3{
     color: #727272
+}
+
+.display{
+    display: flex;
+}
+
+section{
+    margin-top: 130px;
 }
 
 /*Header Part*/
@@ -108,4 +116,49 @@ nav h3{
 
 .banner img{
     width: 100%;;
+}
+
+/*Feature Part*/
+.features{
+    gap: 4.5rem;
+}
+
+.f_img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+}
+
+.f_content{
+    margin: auto 0;
+}
+
+.f_content h3{
+    font-size: 4rem; 
+    font-weight: 500;
+    margin: 0;
+}
+
+.f_content span{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+#f-d{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #FF900E;
+    margin: 0;
+}
+
+/*Responsive Design*/
+@media screen and (max-width : 576px){
+    nav, .features{
+        flex-direction: column;
+    }
+
+    .f_img{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+    }
 }
