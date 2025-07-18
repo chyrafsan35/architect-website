@@ -6,3 +6,106 @@
   font-weight: <weight>;
   font-style: normal;
 }
+
+/*Shared styles*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.p_text{
+    font-size: 1rem;
+    color: #727272;
+    font-weight: 400;
+}
+
+.p_btn{
+    padding: 20px 25px;
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+dark1{
+    color: #131313;
+}
+
+dark2{
+    color: #424242;
+}
+
+dark3{
+    color: #727272
+}
+
+/*Header Part*/
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+
+}
+
+nav, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h3{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+
+.navlist{
+    display: flex;
+    list-style: none;
+}
+
+.navlist li{
+    margin-right: 30px;
+}
+
+.navlist li a{
+    text-decoration: none;
+    color: #424242;
+}
+
+.banner{
+    padding-bottom: 3rem;
+}
+
+.text{
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text h2{
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.text button{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+
+}
+
+.banner img{
+    width: 100%;;
+}
